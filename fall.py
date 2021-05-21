@@ -72,7 +72,7 @@ if __name__ == '__main__':
                     a = human.body_parts[0]   
                     x = a.x*image.shape[1]
                     y = a.y*image.shape[0]   
-                    y1.append()   
+                    y1.append(y)   
                 except:
                     pass
 
