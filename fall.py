@@ -19,8 +19,6 @@ ch.setFormatter(formatter)
 logger.addHandler(ch)
 
 
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='tf-pose-estimation realtime webcam')
     parser.add_argument('--camera', type=str, default=0)
@@ -74,7 +72,7 @@ if __name__ == '__main__':
                     a = human.body_parts[0]   
                     x = a.x*image.shape[1]
                     y = a.y*image.shape[0]   
-                    y1.append(y)   
+                    y1.append()   
                 except:
                     pass
 
